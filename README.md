@@ -1,53 +1,46 @@
 ![logo-nodezoo](https://raw.githubusercontent.com/rjrodger/nodezoo-web/to-redux/client/assets/img/logo-nodezoo.png)
 
-# nodezoo-web
+# nodezoo-Search
 Nodezoo Search is an interface with an elasticsearch server. Nodezoo is an example microservice system written in node.js. It is written in a workshop format and designed to help you explore a full microservice
 system. Please see the [main repo][] for more details
 
 - __Sponsor:__ [nearForm][]
-
+- __Lead:__ [Richard Rodger][Lead]
 
 ## Install
-npm install nodezoo-search
+1. clone this repo into a root _/nodezoo_ folder.
+2. run `npm install`
 
+## Starting
+`npm run start`
+`npm run start-dev`
 
-## Tagging and Logging
-Options can be specified using '--'
+### Tagging and Logs
+To tag your service and set up logs simply pass the relevant switches on start,
 
-npm run start --your.options
-
-```sh
-// tagging example
-npm run start --seneca.options.tag=npm
 ```
-```sh
-// logging example
-npm run start --seneca.log.all
+npm start -- --seneca.options.tag=nodezoo-search --seneca.log.all
 ```
 
-The -- tells npm to forward options to the commands it is running
-
-
-## Running
-npm run start
-npm run start-dev
-
-
-
-## Messages
-This micro-service recognizes the following messages:
+## Inbound Messages
+This micro-service recognizes the following inbound messages:
 
    * _role:search,cmd:insert_ - insert module details into search engine index
    * _role:search,cmd:search_ - query the search engine
 
+## Outbound Messages
+This micro-service emits no outbound messages.
+
+## Running with Curl
+coming soon :)
 
 ## Contributing
-The [NodeZoo][] org encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
+The [NodeZoo org][] encourages __open__ and __safe__ participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
 - Before contributing please review our __[Code of Conduct][CoC]__
 
 ## License
-Copyright (c) 2015, Richard Rodgers and other contributors.
+Copyright (c) 2015, Richard Rodger and other contributors.
 Licensed under [MIT][].
 
 
@@ -57,3 +50,4 @@ Licensed under [MIT][].
 [NodeZoo]: http://www.nodezoo.com/
 [main repo]: https://github.com/rjrodger/nodezoo
 [CoC]: ./CoC.md
+[Lead]: https://github.com/rjrodger
