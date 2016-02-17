@@ -10,11 +10,13 @@ system. Please see the [main repo][] for more details
 - __Lead:__ [Richard Rodger][Lead]
 
 ## Install
-1. clone this repo into a root _/nodezoo_ folder.
-2. run `npm install`
+1. Clone this repo into a root _/nodezoo_ folder.
+2. Run `npm install`
 
 ## Starting
+To start simply run,
 `npm run start`
+       OR
 `npm run start-dev`
 
 ### Tagging and Logs
@@ -37,12 +39,13 @@ This micro-service emits no outbound messages.
 coming soon :)
 
 ## Contributing
-The [NodeZoo org][] encourages __open__ and __safe__ participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
+The [NodeZoo][] org encourages __open__ and __safe__ participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
 - Before contributing please review our __[Code of Conduct][CoC]__
 
 ## License
 Copyright (c) 2015, Richard Rodger and other contributors.
+<<<<<<< HEAD
 =======
 
 ## Install
@@ -61,6 +64,8 @@ The [NodeZoo][] org encourages open participation. If you feel you can help in a
 ## License
 Copyright (c) 2015, Richard Rodgers and other contributors.
 >>>>>>> bc18831... updated readme
+=======
+>>>>>>> a170ed0... updated readme
 Licensed under [MIT][].
 
 
@@ -69,8 +74,10 @@ Licensed under [MIT][].
 [nearForm]: http://www.nearform.com/
 [NodeZoo]: http://www.nodezoo.com/
 [main repo]: https://github.com/rjrodger/nodezoo
-<<<<<<< HEAD
 [CoC]: ./CoC.md
 [Lead]: https://github.com/rjrodger
+<<<<<<< HEAD
 =======
 >>>>>>> bc18831... updated readme
+=======
+>>>>>>> a170ed0... updated readme
