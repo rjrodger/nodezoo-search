@@ -35,15 +35,13 @@ This micro-service recognizes the following inbound messages:
 ## Outbound Messages
 This micro-service emits no outbound messages.
 
-## Running with Curl
-coming soon :)
-
 ## Contributing
 The [NodeZoo][] org encourages __open__ and __safe__ participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
 - Before contributing please review our __[Code of Conduct][CoC]__
 
 ## License
+<<<<<<< HEAD
 Copyright (c) 2015, Richard Rodger and other contributors.
 <<<<<<< HEAD
 =======
@@ -62,10 +60,8 @@ This micro-service recognizes the following messages:
 The [NodeZoo][] org encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
 ## License
-Copyright (c) 2015, Richard Rodgers and other contributors.
->>>>>>> bc18831... updated readme
-=======
->>>>>>> a170ed0... updated readme
+Copyright (c) 2016, Richard Rodger and other contributors.
+
 Licensed under [MIT][].
 
 
