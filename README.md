@@ -72,8 +72,3 @@ Licensed under [MIT][].
 [main repo]: https://github.com/rjrodger/nodezoo
 [CoC]: ./CoC.md
 [Lead]: https://github.com/rjrodger
-<<<<<<< HEAD
-=======
->>>>>>> bc18831... updated readme
-=======
->>>>>>> a170ed0... updated readme
